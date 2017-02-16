@@ -7,7 +7,7 @@
     <ProjectGuid>{4E30A4EA-A5A8-448D-9DC5-4D763AC56F72}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RemotePPTManager</RootNamespace>
+    <RootNamespace>Wilds.Apps.RemotePPTManager</RootNamespace>
     <AssemblyName>RemotePPTManager</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

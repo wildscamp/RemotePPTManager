@@ -1,7 +1,7 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="RemotePPTManager.MainWindow"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Wilds.Apps.RemotePPTManager.MainWindow"
         Title="Remote PPT Manager" MinWidth="320" MinHeight="222" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
     <StackPanel Margin="5,0,5,5">
         <Label HorizontalAlignment="Left" Padding="0,5,5,5" Content="Folder to Watch"/>

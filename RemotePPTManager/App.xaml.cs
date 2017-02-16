@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace RemotePPTManager
+namespace Wilds.Apps.RemotePPTManager
 {
     /// <summary>
     /// Interaction logic for App.xaml

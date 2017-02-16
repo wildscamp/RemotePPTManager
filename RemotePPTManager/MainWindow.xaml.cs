@@ -17,7 +17,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Wilds.IO;
 
-namespace RemotePPTManager
+namespace Wilds.Apps.RemotePPTManager
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
