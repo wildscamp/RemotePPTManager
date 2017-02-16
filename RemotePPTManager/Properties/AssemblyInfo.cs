@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("The Wilds")]
 [assembly: AssemblyProduct("Remote PPT Manager")]
-[assembly: AssemblyCopyright("Copyright © 2013 The Wilds")]
+[assembly: AssemblyCopyright("Copyright © 2017 The Wilds")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,6 +51,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2.0.2")]
-[assembly: AssemblyFileVersion("1.2.0.2")]
+[assembly: AssemblyVersion("1.3.*")]
 [assembly: GuidAttribute("0EBA1AF6-60D4-4660-BDAB-0657D18EF3ED")]
