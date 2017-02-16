@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="RemotePPTManager.MainWindow"
+        Title="Remote PPT Manager" MinWidth="320" MinHeight="222" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <StackPanel Margin="5,0,5,5">
+        <Label HorizontalAlignment="Left" Padding="0,5,5,5" Content="Folder to Watch"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Border BorderBrush="LightGray" BorderThickness="1" Padding="1" Margin="0,0,5,0">
+                <Label Padding="0" Content="" x:Name="lblFileToWatch" Foreground="DarkGray"/>
+            </Border>
+            <Button Grid.Column="1" Padding="5,1" x:Name="btnBrowse" Content="Browse" Click="btnBrowse_Click"/>
+        </Grid>
+        <CheckBox Name="chkWatchOnStart" Content="Auto-start watching on app startup" Margin="0,5,0,0" Checked="chkWatchOnStart_Checked" Unchecked="chkWatchOnStart_Unchecked" />
+        <Label HorizontalAlignment="Left" Content="Last Launched File" Padding="0,5,0,0" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="LightGray" BorderThickness="1" Padding="1" Margin="0,0,5,0">
+                <Label Padding="0" Content="" x:Name="lblLastLunchedFile" Foreground="DarkGray" />
+            </Border>
+            <Button Grid.Column="1" Padding="5,1" x:Name="btnLaunchFile" Content="Launch &amp; Minimize" Click="btnLaunchFile_Click" IsEnabled="False" />
+        </Grid>
+        <CheckBox Name="chkAutoLaunchLastFile" Content="Auto-launch most recently launched file at startup" Margin="0,5,0,0" Checked="chkAutoLaunchLastFile_Checked" Unchecked="chkAutoLaunchLastFile_Unchecked" />
+        <Button Margin="0,5,0,0" HorizontalAlignment="Center" Padding="5,1" x:Name="btnStartStopWatching" Click="btnStartStopWatching_Click" Content="Start Watching"/>
+        <Label Name="lblVersion" Content="v" HorizontalAlignment="Right" Foreground="DarkGray" />
+    </StackPanel>
+</Window>
